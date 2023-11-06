@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <section class="tarjetas-desplegables">
+        <div class="contenedor">
+            <img src="images/jean1.jpg" id="imagenJean" alt="" width="350px" onmouseover="cambiarImagen()" onmouseout="restaurarImagen()">
+            <h2>Jeans Dama $20000</h2>
+            <p>
+                <ul id="oculto" class="elemento-oculto">
+                    <li>Disponible en Talle</li>
+                    <li>36</li>
+                    <li>40</li>
+                    <li>42</li>
+                    <li>44</li>
+                    <li><a href="">Consultar Stock</a></li>
+                    
+                </ul>
+                </p>
+            <button class="btn" id="boton" onclick="mostrarDescripcion()">Ver más</button>
+            
+            
+            
+        </div>
+
+        <div class="contenedor">
+            <img src ="images/saco1.jpg"  id="imagenSaco" alt="" width="350px"onmouseover="cambiarImagenB()" onmouseout="restaurarImagenB()"  >
+            <h2>Sacos Dama Oversize $55000</h2>
+            <p>
+                <ul id="ocultoB" class="elemento-ocultoB">
+                    <li>Talle Unico</li>
+                    <li>Colores:</li>
+                    <li>Rosa Pastel</li>
+                    <li>Gris</li>
+                    <li>Celeste</li>
+                    <li><a href="#">Consultar Stock</a></li>
+                </ul>
+            </p>
+            <button class="btn" id="botonB"  onclick="mostrarDescripcionB()">Ver más</button>
+        </div>
+
+        <div class="contenedor">
+            <img src="images/camisas1.jpg" id="imagenCamisas" alt="" width="350px"onmouseover="cambiarImagenC()" onmouseout="restaurarImagenC()" >
+            <h2>Camisas Oversize Unisex $35000</h2>
+            <p>
+                <ul id="ocultoC" class="elemento-ocultoC">
+                    <li>Talle Unico</li>
+                    <li>Colores:</li>
+                    <li>Negro</li>
+                    <li>Rojo cuadriculado</li>
+                    <li>Blanco</li>
+                    <li>Denim</li>
+                    <li><a href="">Consultar Stock</a></li>
+                </ul>
+            </p>
+            <button class="btn" id="botonC"  onclick="mostrarDescripcionC()">Ver más</button>
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
